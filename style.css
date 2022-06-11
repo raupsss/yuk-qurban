@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Poppins";
+}
+
+
+::-webkit-scrollbar{
+    width: 16px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    background: #07d34b;
+}
+
+.header{
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.logo a{
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    color: #07d34b;
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px;
+}
+
+.menu .hubungi{
+    background-color: #07d34b;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+
+nav ul li a:hover  {
+    text-decoration: underline;
+}
+
+.banner{
+    display: flex;
+    width: 1000px;
+    height: 250px;
+    background-color: #14A759;
+    border: 2px ;
+    padding: 50px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+section {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 30px 0px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.kolom .promo{
+    font-size: 46px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    margin-left: 20px;
+    color: white;
+    line-height: 30px;
+}
+
+.kolom .yukqurban {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tengah .fitur {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.fitur img{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.fitur h4 p{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: aqua;
+}
+
+.qurban .list-hewan  {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    background-color: #f6f6f6;
+    padding: 50px;
+    border: 2px #F6F6F6;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.box{
+    flex-grow: 1;
+    background-color: #F6F6F6;
+    margin: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    
+}
+
+.tipe-kambing {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #07d34b;
+    padding: 20px;
+
+}
+
+.harga{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.bobot {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tipe-sapi {
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #F9B208;
+    padding: 20px;
+
+}
